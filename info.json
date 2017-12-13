@@ -1,0 +1,11 @@
+{
+  "name": "SC_camera",
+  "version": "0.4.1",
+  "factorio_version": "0.16",
+  "title": "Screenshot camera",
+  "author": "aaargha",
+  "contact": "Shoot me a message on the forums/reddit",
+  "homepage": "https://forums.factorio.com/viewtopic.php?f=92&t=42738",
+  "description": "Adds a camera to easily take high quality screenshots.",
+  "dependencies": ["? LargerScreenshots"]
+}
