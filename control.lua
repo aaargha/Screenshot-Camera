@@ -50,13 +50,6 @@ local function handle_screenshot(event, alt_info)
 		return
 	end
 
-	--use another mod to handle larger screenshots if available
-	if remote.interfaces["LargerScreenshots"] and remote.interfaces["LargerScreenshots"]["screenshot"] then
-		p.print("Use Larger screenshots to take screenshot")
-		remote.call("LargerScreenshots","screenshot", {player=p, by_player=p, position=pos, size={x = diffx, y = diffy}, zoom=_zoom, path_prefix=string.sub(_path, 1, (#_path - 4)), show_gui=_gui, show_entity_info=alt_info, anti_alias=_aa})
-		return
-	end
-
 	if diffx > max_dist then
 		p.print("Area too wide, max is " .. max_dist .. " tiles")
 		return

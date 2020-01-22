@@ -4,7 +4,7 @@ data:extend({
     type = "selection-tool",
     name = "ScreenshotCamera",
     icon = "__SC_camera__/graphics/icon_camera.png",
-	icon_size = 32,
+	icon_size = 64,
     subgroup = "tool",
     stack_size= 1,
 	selection_mode = {"nothing"},
